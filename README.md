@@ -3,7 +3,7 @@
 
 > A CRDT framework with a powerful abstraction of shared data
 
-Yjs is a [CRDT implementation](#Yjs-CRDT-Algorithm) that exposes its internal
+Yjs is a [CRDT implementation](#yjs-crdt-algorithm) that exposes its internal
 data structure as *shared types*. Shared types are common data types like `Map`
 or `Array` with superpowers: changes are automatically distributed to other
 peers and merged without merge conflicts.
@@ -73,7 +73,7 @@ on Yjs. [![Become a Sponsor](https://img.shields.io/static/v1?label=Become%20a%2
   * [Document Updates](#Document-Updates)
   * [Relative Positions](#Relative-Positions)
   * [Y.UndoManager](#YUndoManager)
-* [Yjs CRDT Algorithm](#Yjs-CRDT-Algorithm)
+* [Yjs CRDT Algorithm](#yjs-crdt-algorithm)
 * [License and Author](#License-and-Author)
 
 ## Overview
